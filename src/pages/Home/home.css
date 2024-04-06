@@ -1,0 +1,59 @@
+.home-container {
+    height: 100dvh;
+    width: 100%;
+}
+
+.home-main {
+    width: 100%;
+    padding: 30px;
+}
+
+.first-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.first-row button {
+    height: 50%;
+}
+.budget-card {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.budget-card label {
+    display: flex;
+    flex-direction: column;
+}
+
+.budget-card input {
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.expense-card {
+    height: 200px;
+    width: 500px;
+    border: 2px dotted;
+    border-radius: 12px;
+    margin-top: 50px;
+    padding: 10px;
+}
+  
+.expense-card > div {
+    display: flex;
+    justify-content: space-between;
+}

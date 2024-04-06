@@ -1,0 +1,17 @@
+.login-container {
+    height: 100dvh;
+    width: 100%;
+}
+
+.login-main {
+    width: 80%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.login-main input {
+    height: 40px;
+    border-radius: 12px;
+}

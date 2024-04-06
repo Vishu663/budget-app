@@ -1,0 +1,14 @@
+.card {
+    height: 250px;
+    width: 500px;
+    border: 1px solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card input {
+    margin-bottom: 10px; /* Added margin between input fields */
+    padding: 5px; /* Added padding for better appearance */
+  }
+  
