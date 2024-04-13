@@ -15,3 +15,14 @@
     height: 40px;
     border-radius: 12px;
 }
+
+h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-icon {
+    height: 30px;
+    width: 30px;
+}

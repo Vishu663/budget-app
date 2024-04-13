@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./login.css";
+import { HomeIcon } from "@heroicons/react/24/solid"
 
 export default function Login() {
     const [name, setName] = useState("");
@@ -17,6 +18,8 @@ export default function Login() {
     return (
         <div className="login-container">
             <div className="login-main">
+                
+                <h2><HomeIcon className="home-icon"/>Budget-up</h2>
                 <h1>Please Enter your Name and get started</h1>
                 <input 
                     type="text" 
